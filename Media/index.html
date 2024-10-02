@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Name Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- File input for selecting CSV file -->
+    <input type="file" id="file">
+    
+    <!-- Dropdown for selecting columns -->
+    <select id="columnDropdown">
+        <option value="">Select a Column</option>
+    </select>
+
+    <!-- Dropdown for filtering based on the selected column -->
+    <select id="filterDropdown">
+        <option value="">Select a Filter</option>
+    </select>
+
+    <!-- Button to trigger random student selection -->
+    <button type="button" id="randomButton">Select Random Student</button>
+
+    <!-- Display the randomly selected student -->
+    <div id="randomStudent"></div>
+
+    <nav>
+        <a href="pic.html">Pictures for Your Enjoyment</a>
+        <a href="Images/gallery.html">Gallery</a>
+
+    </nav>
+
+ 
+
+    <!-- Table for displaying CSV data -->
+    <table id="table"></table>
+
+    <!-- Script reference to your JavaScript file -->
+    <script src="app.js"></script>
+</body>
+<!-- Citations https://realpython.com/html-css-python/ -->
+</html>
+
+
